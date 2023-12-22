@@ -1,0 +1,17 @@
+---
+import RecentBlogPosts from "@components/generic/RecentBlogPosts.astro";
+import Layout from "@layouts/Default.astro";
+import AboutMe from "@components/generic/aboutme.astro";
+---
+
+<Layout
+  title="aboutme"
+  description="About me"
+  classList="h-full"
+  pageTitle="About me"
+>
+  <main class="bg-blue px-6 py-24">
+    <AboutMe />
+    <RecentBlogPosts />
+  </main>
+</Layout>
